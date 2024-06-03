@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>University Management System</title>
+</head>
+
+<body>
+
+    <h1>University Management System</h1>
+    <form action="php/dashboard.php" method="post">
+        <table>
+            <tr>
+                <td><label for="email">Email</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="password" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Sign In" /></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="php/account_create.php" method="get">
+        Do not have an account?
+        <br />
+        <input type="submit" value="Create Account" />
+    </form>
+
+    <!-- Additional sections for other functionalities -->
+
+</body>
+
+</html>
